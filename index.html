@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Продукция компании NL International</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="img/icon.png" rel="icon" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sweetalert.css">
+</head>
+<body>
+  <a href="http://nl-profit.ru/" target="_blank"></a>
+  <div class="popup">
+    <div class="video">
+      <div class="video_close"></div>
+      <div class="form_container form_container--hor pro">
+        <div class="politics_title">Заполните форму и с Вами свяжется наш менеджер для оформления заказа</div>
+        <div class="fc form--hor">
+          <div class="image"><img src="" alt="form image"></div>
+          <form class="f_pro" action="mail.php" method="post"><input type="hidden" class="product" name="product">
+            <label for="fn">Ваше имя <span class="red">*</span></label> <input type="text" id="fn" name="name" required>
+            <label for="fm">Номер телефона <span class="red">*</span></label>
+            <input type="text" id="fm" name="mobile" required>
+            <button class="btn btn-m btn-full" type="submit">Связаться с нами</button>
+          </form>
+        </div>
+      </div>
+      <div class="form_container extra">
+        <div class="politics_title">
+          Оставьте заявку. С Вами свяжется наш менеджер и подробно расскажет о продукте
+        </div>
+        <div class="fc">
+          <form class="f_extra" action="mail.php" method="post"><input type="hidden" class="product" name="product">
+            <label for="fn">Ваше имя <span class="red">*</span></label> <input type="text" id="fn" name="name" required>
+            <label for="fm">Номер телефона <span class="red">*</span></label>
+            <input type="text" id="fm" name="mobile" required>
+            <button class="btn btn-m btn-full" type="submit">Связаться с нами</button>
+          </form>
+        </div>
+      </div>
+      <div class="video_container"></div>
+      <div class="politics">
+        <div class="politics_title">Политика Конфиденциальности</div>
+        <p>
+          Обработка персональных данных Пользователя осуществляется в соответствии с законодательством Российской Федерации.
+          Администрация Сайта обрабатывает персональные данные Пользователя
+          в целях предоставления Пользователю услуг.
+        </p>
+        <p>
+          Пользователь заполняя форму «Имя, «E-mail» и «Телефон или Скайп», даёт
+          согласие на обработку своих персональных данных — имени и адреса электронной почты. Под обработкой персональных
+          данных понимается сбор, систематизация, накопление, уточнение (обновление, изменение). Обработка осуществляется
+          с использованием средств автоматизации и/или без использования таких средств, в целях реализации мероприятий
+          оповещения пользователя о изменениях на сайте и по поддержке обратной связи с пользователями сайта.
+        </p>
+        <p>
+          В соответствии с ФЗ от 27.07.2006 г. № 152-ФЗ «О персональных данных»я согласен, при необходимости, во время
+          заполнения информации при регистрации в сайте, входе в Личный кабинет или при отправке заявки на участие
+          в сеансе онлайн-связи предоставить информацию, относящуюся к моей личности: мое имя, мой адрес электронной почты
+          и телефон или скайп.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <a id="a_top"></a>
+
+    <div class="head">
+      <header class="center">
+        <a class="logo" id="m_top">
+          Продукция компании<br>
+          <span>NL International</span>
+        </a>
+        <ul class="js-burger | burger">
+          <li class="burger_item"></li>
+          <li class="burger_item"></li>
+          <li class="burger_item"></li>
+        </ul>
+        <ul class="js-menu menu">
+          <li class="menu_item"><a id="m_energy">Energy Diet</a></li>
+          <li class="menu_item"><a id="m_more">Продукция</a></li>
+          <li class="menu_item"><a id="m_prem">Преимущества</a></li>
+          <li class="menu_item"><a id="m_feed">Отзывы</a></li>
+          <li class="menu_item"><a id="m_con">Состав</a></li>
+          <li class="menu_item"><a id="m_ship">Доставка</a></li>
+        </ul>
+        <a class="btn btn-s" id="m_start">
+          <i class="fa fa-shopping-cart"></i> Заказать</span>
+        </a>
+      </header>
+    </div>
+    <div class="block bg start">
+      <div class="center">
+        <div class="feedback">
+<!--           <h1 class="big_title">Energy Diet</h1>
+          <h2 class="small_title">Cовременное питание для активных людей</h2> -->
+          <h1 class="start_title">
+            Заказать Energy Diet, Energy Diet Smart, Energy Slim, Energy Pro, Enerwood, TenX и любую другую продукцию NL International
+          </h1>
+          <p class="start_intro">
+            Заполните форму, и наш менеджер свяжется с Вами для оформления заказа
+          </p>
+          <form class="js-main-form" action="mail.php" method="post">
+            <label for="fn1">Ваше имя</label>
+            <input type="text" id="fn1" name="name" required="">
+            <ul class="js-row b-row">
+              <li class="b-row_item">
+                <label for="fm1">Номер мобильного телефона</label>
+                <input type="text" id="fm1" name="mobile" required>
+              </li>
+              <li class="b-row_item">или</li>
+              <li class="b-row_item">
+                <label for="fe1">Адрес электронной почты</label>
+                <input type="text" id="fe1" name="email" required>
+              </li>
+            </ul>
+            <label for="t1">Товары, которые хотите заказать</label>
+            <textarea name="goods" id="t1" rows="3"></textarea>
+            <label class="js-agreement agreement">
+              <span class="agreement_mark">✓</span>
+              <input class="js-checkbox" type="checkbox" name="club">
+              Хочу зарегистрироваться в <span class="b-tip">
+                <span class="b-tip_label">Client Club</span>
+                <p class="b-tip_modal">
+                  Вы можете стать участником бонусной программы Client Club и получать баллы за каждую
+                  покупку. Баллы могут быть потом использованы при последующих покупках. В итоге, продукция
+                  выйдет дешевле. Это выгодно, регистрация бесплатная. Также действует накопительная система
+                  от 3% до 10%, и, таким образом, Вы сможете покупать продукцию со скидкой.
+                </p>
+              </span>
+            </label>
+            <button class="btn btn-m btn-full" type="submit">Заказать</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="block s2">
+      <a id="a_about"></a>
+      <div class="center video_cont">
+          <h3 class="block_title block_title--line">
+            <span>Что такое Energy Diet</span>
+          </h3>
+          <div class="cnt">
+            <div class="video_box video_box--left">
+              <div class="video_box-holder">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sYCdBOxHl_c?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <ul class="text_list">
+              <li class="l1">Для тех кто живет в напряженном ритме и хочет сохранить своё здоровье</li>
+              <li class="l2">Для тех кто хочет избавиться от проблем с лишним весом или недостающим весом</li>
+              <li class="l3">Для тех кто занимается спортом</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <div class="block pr">
+      <a id="a_energy"></a>
+      <div class="center">
+        <h3 class="block_title block_title--line">
+          <span>Вкусы Energy Diet</span>
+        </h3>
+        <h4 class="block_note">1 банка = 15 порций</h4>
+        <div class="pr_box">
+          <div class="pr" __id="pr1">
+            <div class="image"><img src="img/p1.png" alt="product"></div>
+            <div class="name">Шоколад</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr2">
+            <div class="image"><img src="img/p2.png" alt="product"></div>
+            <div class="name">Ваниль</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr3">
+            <div class="image"><img src="img/p3.png" alt="product"></div>
+            <div class="name">Клубника</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr4">
+            <div class="image"><img src="img/p4.png" alt="product"></div>
+            <div class="name">Банан</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr5">
+            <div class="image"><img src="img/p5.png" alt="product"></div>
+            <div class="name">Малина</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr6">
+            <div class="image"><img src="img/p6.png" alt="product"></div>
+            <div class="name">Капучино</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr7">
+            <div class="image"><img src="img/p7.png" alt="product"></div>
+            <div class="name">Кофе</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr8">
+            <div class="image"><img src="img/p8.png" alt="product"></div>
+            <div class="name">Суп «Курица»</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr9">
+            <div class="image"><img src="img/p9.png" alt="product"></div>
+            <div class="name">Суп «Грибы»</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr10">
+            <div class="image"><img src="img/p10.png" alt="product"></div>
+            <div class="name">Омлет</div>
+            <!-- <div class="price">2200 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr special" __id="pr_18">
+            <div class="image"><img src="img/p_special.png" alt="product"></div>
+            <div class="text">
+              <div class="big_title">Energy Diet Smart</div>
+              <div class="title">1 упаковка = 15 пакетиков</div>
+              <div class="name">Дыня</div>
+              <!-- <div class="price">1980 ₽</div> -->
+              <div class="button_box">
+                <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+              </div>
+            </div>
+          </div>
+          <div class="pr" __id="pr11">
+            <div class="image"><img src="img/p11.jpg" alt="product"></div>
+            <div class="name">Шоколадный мусс</div>
+            <!-- <div class="price">1980 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr" __id="pr12">
+            <div class="image"><img src="img/p12.jpg" alt="product"></div>
+            <div class="name">Ягодный микс</div>
+            <!-- <div class="price">1980 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr ms" __id="pr13">
+            <div class="image"><img src="img/p13.jpg" alt="product"></div>
+            <div class="name">Айриш крим</div>
+            <!-- <div class="price">1980 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr ms" __id="pr14">
+            <div class="image"><img src="img/p14.jpg" alt="product"></div>
+            <div class="name">Ваниль-Карамель</div>
+            <!-- <div class="price">1980 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr ms" __id="pr15">
+            <div class="image"><img src="img/p15.jpg" alt="product"></div>
+            <div class="name">Латте</div>
+            <!-- <div class="price">1980 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr ms" __id="pr16">
+            <div class="image"><img src="img/p16.jpg" alt="product"></div>
+            <div class="name">Лимонное печенье</div>
+            <!-- <div class="price">1980 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+          <div class="pr ms" __id="pr17">
+            <div class="image"><img src="img/p17.jpg" alt="product"></div>
+            <div class="name">Манго</div>
+            <!-- <div class="price">1980 ₽</div> -->
+            <div class="button_box">
+              <div class="btn btn-s"><i class="fa fa-shopping-cart"></i> Заказать</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block s4">
+      <a id="a_prem"></a>
+      <div class="center">
+        <div class="block_title block_title--line">
+          Включите в свой рацион Energy Diet
+        </div>
+        <div class="block_box">
+          <div class="b b1">
+            <div class="img"></div>
+            <div class="text">
+              <div class="big">Баланс питания</div>
+              <p class="small">
+                Cбалансированная по ингредиентам пища способствует улучшению самочувствия и нормализации
+                пищевого статуса. 1&#8288;–&#8288;2 раза в день вместо еды и вы почувствуете легкость и энергию
+              </p>
+            </div>
+          </div>
+          <div class="b b2">
+            <div class="img"></div>
+            <div class="text">
+              <div class="big">Коррекция веса в минус</div>
+              <p class="small">В зависимости от схемы включения Energy Diet в ежедневный рацион можно скорректировать
+                вес в сторону уменьшения веса. Заменяем приемы пищи на ED по программе
+              </p>
+            </div>
+          </div>
+          <div class="b b3">
+            <div class="img"></div>
+            <div class="text">
+              <div class="big">Спорт</div>
+              <p class="small">ENERGY DIET в рационе спортсменов помогает наращивать мышечную массу и быстро
+                восстановить силы после тренировки
+              </p>
+            </div>
+          </div>
+          <div class="b b4">
+            <div class="img"></div>
+            <div class="text">
+              <div class="big">Коррекция веса в плюс</div>
+              <p class="small">Программа Плюс направлена на увеличение веса. Продукты Energy Diet используются в дополнение, то есть плюсом к обычной пище
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block people">
+      <a id="a_feed"></a>
+      <div class="center">
+        <h3 class="block_title block_title--line">
+          <span>Видео отзывы</span>
+        </h3>
+        <h4 class="block_note">Нажмите на изображение для просмотра видео</h4>
+        <div class="person_box">
+          <div class="person">
+            <div class="image"><img src="img/cd1.jpg"></div>
+            <div class="name">Лариса Долина</div>
+          </div>
+          <div class="person pm">
+            <div class="image"><img src="img/cd2.jpg"></div>
+            <div class="name">Тимур Родригез</div>
+          </div>
+          <div class="person">
+            <div class="image"><img src="img/cd3.jpg"></div>
+            <div class="name">Ирина Хакамада</div>
+          </div>
+          <div class="person">
+            <div class="image"><img src="img/cd4.jpg"></div>
+            <div class="name">Дмитрий Дибров</div>
+          </div>
+          <div class="person pm">
+            <div class="image"><img src="img/cd5.jpg"></div>
+            <div class="name">Сергей Агапкин</div>
+          </div>
+          <div class="person">
+            <div class="image"><img src="img/cd7.jpg"></div>
+            <div class="name">Костя Цзю</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block bg s6">
+      <a id="a_con"></a>
+      <div class="center video_cont">
+        <h3 class="block_title block_title--line">
+          <span>Состав Energy Diet</span>
+        </h3>
+        <div class="video_box video_box--center">
+          <div class="video_box-holder">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/h3O4hwKmMOg?modestbranding=1&amp;showinfo=0&amp;fs=0&amp;rel=0" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block s7">
+      <a id="a_ship"></a>
+      <div class="center">
+        <h3 class="block_title block_title--line">
+         <span>Доставка и оплата по факту</span>
+        </h3>
+        <div class="block_box">
+          <div class="b">
+            <div class="big">1</div>
+            <div class="small">Оставляйте на нашем сайте свой заказ</div>
+          </div>
+          <div class="b">
+            <div class="big">2</div>
+            <div class="small">С Вами свяжется наш менеджер для уточнения деталей заказа</div>
+          </div>
+          <div class="b">
+            <div class="big">3</div>
+            <div class="small">Ожидайте доставки. Оплата при получении товара</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block f">
+      <a id="a_more"></a>
+      <div class="center">
+        <h3 class="block_title block_title--line">
+          <span>Другие продукты, улучшающие качество жизни</span>
+        </h3>
+        <div class="pro_box">
+          <div class="pro" __id="pr_19">
+            <img src="img/p19.jpg" width="" height="" alt="product">
+            <div class="text">
+              <div class="big">ENERGY SLIM<br> продукты для похудения</div>
+              <a href="#">Подробнее →</a>
+            </div>
+          </div>
+          <div class="pro" __id="pr_20">
+            <img class="light" src="img/p20.jpg" width="" height="" alt="product">
+            <div class="text">
+              <div class="big">SKLAER<br> зубные пасты</div>
+              <a href="#">Подробнее →</a>
+            </div>
+          </div>
+          <div class="pro" __id="pr_21">
+            <img src="img/p21.jpg" width="" height="" alt="product">
+            <div class="text">
+              <div class="big">ENERGY PRO<br> спортивное питание</div>
+              <a href="#">Подробнее →</a>
+            </div>
+          </div>
+          <div class="pro" __id="pr_22">
+            <img src="img/p22.png" width="" height="" alt="product">
+            <div class="text">
+              <div class="big">ENERWOOD<br> чаи и напитки</div>
+              <a href="#">Подробнее →</a>
+            </div>
+          </div>
+          <div class="pro" __id="pr_23">
+            <img src="img/p23.jpg" width="" height="" alt="product">
+            <div class="text">
+              <div class="big">ENERGY PRO<br> спортивные батончики</div>
+              <a href="#">Подробнее →</a>
+            </div>
+          </div>
+          <div class="pro" __id="pr_24">
+            <img src="img/p24.jpg" width="" height="" alt="product">
+            <div class="text">
+              <div class="big">JOYFIELD<br> фруктовые батончики</div>
+              <a href="#">Подробнее →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg">
+        <div class="form_box center">
+          <div class="text">
+            Заполните форму, после чего наш менеджер свяжется с Вами и поможет подобрать персональную программу питания ENERGY DIET
+          </div>
+          <div class="b form--hor">
+            <div class="image">
+              <img src="img/fi.png" alt="form image">
+            </div>
+            <form class="final" action="mail.php" method="post">
+              <label for="fn">Ваше имя</label>
+              <input type="text" id="fn" name="name" required>
+              <label for="fm">Номер мобильного телефона</label>
+              <input type="text" id="fm" name="mobile" required>
+              <button class="btn btn-m btn-full" type="submit">Связаться с нами</button>
+            </form>
+            <p class="b-safe">
+              Данные, оставленные Вами на этом сайте, не будут переданы и/или любым другим способом сообщены третьим лицам
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block footer">
+      <div class="center">
+        <div class="p">
+          <div class="big">
+            Продукция компании<br>
+            <span>NL International</span>
+          </div>
+          <div class="small politics-t">Политика Конфиденциальности</div>
+          <a href="http://nl-profit.ru/" class="btn btn-s btn-full">
+            Начать бизнес с компанией NL International
+          </a>
+        </div>
+        <ul class="m">
+          <li>
+            По всем возникающим вопросам пишите менеджеру:
+          </li>
+          <li>
+            – в WhatsApp на номер <a href="https://wa.me/79994753175">+7 999 475 3175</a>
+          </li>
+          <li>
+            – на электронную почту <a href="mailto:profit-nl@yandex.ru">profit-nl@yandex.ru</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/device.min.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/sweetalert.min.js"></script>
+  <script src="https://use.fontawesome.com/a952c4ba7f.js"></script>
+  <script src="js/script.js"></script>
+
+  <div style="position:absolute;top:-100px;left:-100px">
+    <table cellpadding="0" cellspacing="0" border="0" width="88" height="31" style="line-height:0;width:88px;">
+      <tr style="height:10px;">
+        <td style="padding:0;width:38px;height:10px;">
+          <a href="http://www.24log.de" target="_blank"><img src="http://counter.24log.ru/buttons/24/bg24-1_1.gif" width="38" height="10" border="0" alt="Besucherzahler" title="Besucherzahler " style="margin:0;padding:0;"/></a>
+        </td>
+        <td style="padding:0;width:50px;height:10px;">
+          <a href="http://www.24log.ru" target="_blank"><img src="http://counter.24log.ru/buttons/24/bg24-1_3.gif" width="50" height="10" border="0" alt="" style="margin:0;padding:0;"></a>
+        </td>
+      </tr>
+      <tr style="height:21px;">
+        <td style="padding:0;width:38px;height:21px">
+          <a href="http://www.24log.ru" target="_blank"><img src="http://counter.24log.ru/buttons/24/bg24-1_2.gif" width="38" height="21" alt="счетчик посещений" title="счетчик посещений" border="0" style="margin:0;padding:0;"/></a>
+        </td>
+        <script type='text/javascript' language='javascript'>
+          document.write('<td style="padding:0px;width:50px;height:21px;"><a href="http://www.24log.ru/rating/rating.php?c=2" target="_blank"><img border="0" width="50" height="21" src="http://counter.24log.ru/counter?id=269742&t=24&st=1&r=' + escape(document.referrer) + '&u=' + escape(document.URL) + '&s=' + ((typeof(screen) == 'undefined') ? '' : screen.width + 'x' + screen.height + 'x' + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + '&rnd=' + Math.random() + '" alt="Рейтинг: Бизнес/Финансы" title="Показано число просмотров всего и за сегодня" style="margin:0;padding:0;" /></a></td>');
+        </script>
+      </tr>
+    </table>
+    <NOSCRIPT><a href="http://www.24log.ru"></a></NOSCRIPT>
+  </div>
+
+</body>
+</html>
+
