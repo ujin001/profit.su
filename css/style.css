@@ -196,7 +196,7 @@ img {
   background-color: #3e3e3e;
   border-radius: 4px;
   padding: 12px 15px;
-  margin-left: auto;
+  margin-left: -130px;
   position: absolute;
   top: calc(100% + 12px);
   left: 50%;
@@ -206,6 +206,12 @@ img {
   pointer-events: none;
   transform: translate3d(0, -6px, 0);
   transition: opacity .2s ease, transform .2s ease;
+}
+@media only screen and (max-device-width: 400px) {
+  .b-tip_modal {
+    right: 0;
+    left: auto;
+  }
 }
 .b-tip_label:hover + .b-tip_modal {
   opacity: 1;
@@ -223,7 +229,14 @@ img {
   margin-left: -4px;
   position: absolute;
   top: -4px;
-  left: 10%;
+  left: 50%;
+}
+
+@media only screen and (max-device-width: 400px) {
+  .b-tip_modal:before {
+    left: auto;
+    right: 20px;
+  }
 }
 
 html, body {
@@ -1147,6 +1160,7 @@ html, body {
 	z-index: 999999;
 	display: none;
 	opacity: 0;
+	overflow-y: auto;
 }
 
 .sweet-overlay {
@@ -1171,6 +1185,8 @@ html, body {
 	top: 50%;
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
+	max-height: 100%;
+    margin-top: 20px;
 }
 .what_video {
 	padding-top: 56%;
