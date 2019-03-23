@@ -1,4 +1,9 @@
 <?php
+
+	if (empty($_POST)) {
+		exit;
+	}
+
 	$name  = htmlspecialchars($_POST['name']);
 	$mobile  = htmlspecialchars($_POST['mobile']);
 	$product  = !empty($_POST['product']) ? htmlspecialchars($_POST['product']) : '';
